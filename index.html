@@ -5,17 +5,18 @@
     <title>RoShamBo</title>
   </head>
   <body>
-    <h1>Ro Sham Bo!</h1>
+    <h1>Rock Paper Scissors!</h1>
     <div id="Gameboard">
-      <button class="ansbtn">Ro</button>
-      <button class="ansbtn">Sham</button>
-      <button class="ansbtn">Bo</button>
+      <button id="Rock">Rock</button>
+      <button id="Paper">Paper</button>
+      <button id="Scissors">Scissors</button>
     </div>
     <div id="Record">
-      <p>You have not played yet.</p>
-      <p>Wins</p>
-      <p>Losses</p>
-      <p>Tie</p>
+      <p id="lastgame">You have not played yet.</p>
+      <p>Wins:</p><p id="wins">0</p>
+      <p>Losses:</p><p id="losses">0</p>
+      <p>Tie:</p><p id="ties">0</p>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
